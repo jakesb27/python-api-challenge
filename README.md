@@ -3,12 +3,16 @@
 UCI Data Analytics Bootcamp | Module 6 Challenge
 
 ## Table of Contents
-* Part I - WeatherPy
-  * [Scatter Plotting](#scatter-plotting)
-    - [Latitude vs. Temperature](#latitude-vs-temperature)
-    - [Latitude Vs. Humidity](#latitude-vs-humidity)
-    - [Latitude Vs. Cloudiness](#latitude-vs-cloudiness)
-    - [Latitude vs. Wind Speed](#latitude-vs-wind-speed)
+#### Part I - WeatherPy
+
+ * [Scatter Plotting](#scatter-plotting)
+   * [Latitude vs. Temperature](#latitude-vs-temperature)
+   * [Latitude Vs. Humidity](#latitude-vs-humidity)
+   * [Latitude Vs. Cloudiness](#latitude-vs-cloudiness)
+   * [Latitude vs. Wind Speed](#latitude-vs-wind-speed)
+ * [Linear Regression Plotting](#linear-regression-plotting)
+   * [Temperature vs. Latitude](#temperature-vs-latitude)
+    - [Northern Hemisphere](#temperature-vs-latitude-northern-hemisphere)
   
 ## Part I - WeatherPy
 
@@ -93,6 +97,8 @@ In WeatherPy a list of 500+ random cities was generated using NumPy's random fun
   </tbody>
 </table>
 
+
+
 [Back To Top](#python-api-challenge)
 
 ## Scatter Plotting
@@ -118,6 +124,26 @@ In WeatherPy a list of 500+ random cities was generated using NumPy's random fun
 [Back To Top](#python-api-challenge)
 
 <br></br>
+
+## Linear Regression Plotting
+
+### Temperature vs. Latitude
+#### Temperature vs. Latitude - Northern Hemisphere
+
+[Back To Top](#python-api-challenge)
+
+#### Southern Hemisphere
+
+[Back To Top](#python-api-challenge)
+
+### Humidity vs. Latitude
+#### Northern Hemisphere
+
+[Back To Top](#python-api-challenge)
+
+#### Southern Hemisphere
+
+[Back To Top](#python-api-challenge)
 
 ## License
 
