@@ -2,7 +2,10 @@
 
 UCI Data Analytics Bootcamp | Module 6 Challenge
 
-## Part I - WeatherPy
+## Table of Contents
+* [Part I - WeatherPy](##WeatherPy)
+
+## WeatherPy
 
 In WeatherPy a list of 500+ random cities was generated using NumPy's random function to create random sets of longitue and latitude coordinates. These coordinates were then fed into the citypy module to obtain the name of the nearest city. The cities were saved in a csv to be accessed later. Using the complete dataset, various scatter plots were generated to visualize different datapoints against the city's latitude.
 
