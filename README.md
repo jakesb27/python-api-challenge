@@ -1,13 +1,15 @@
 # Python API Challenge
 
-UCI Data Analytics Bootcamp | Module 6 Challenge
+#### UCI Data Analytics Bootcamp | Module 6 Challenge
 
 <br />
 
 ## Summary
 
 This is a two part challenge consisting of [WeatherPy](#weatherpy) and [VacationPy](#vacationpy). Both scripts use free public API's to obain necessary information. [WeatherPy](#weatherpy) uses the <a href="https://openweathermap.org/api">OpenWeather API</a> to obtain the weather information of a random list of cities. The datapoints are then analyzed for any trends or correlations. [VacationPy](#vacationpy) uses the <a href="https://www.geoapify.com/get-started-with-maps-api">Geoapify</a> API to gather hotels closest to some of the cities in the list of cities gathered in the previous script. These are then mapped to provide a visual representation of places to vacation.
+
 <br />
+
 ## Table of Contents
 #### [Part I - WeatherPy](#weatherpy)
 
@@ -32,18 +34,19 @@ This is a two part challenge consisting of [WeatherPy](#weatherpy) and [Vacation
 
 #### [Part II - VacationPy](#vacationpy)
 
+ * [Geo Map Plotting](#geo-mapplotting)
+   * [All Cities Without Hotel](#all-cities-without-hotel)
+   * [My Cities With Hotel](#my-cities-with-hotel)
+
 <br />
-<hr />
-<p><center>
 
 ## WeatherPy
 
-</center></p>
-<hr />
 
 In WeatherPy a list of 500+ random cities was generated using NumPy's random function to create random sets of longitue and latitude coordinates. These coordinates were then fed into the citypy module to obtain the name of the nearest city. The cities were saved in a csv to be accessed later. Using the complete dataset, various scatter plots were generated to visualize different datapoints against the city's latitude.
 
 <br />
+
 <table class="dataframe" border="1">
   <thead>
     <tr style="text-align: right;">
@@ -123,17 +126,12 @@ In WeatherPy a list of 500+ random cities was generated using NumPy's random fun
   </tbody>
 </table>
 
-
-
 [Back To Top](#python-api-challenge)
 
 <br />
-<hr width="50%"/>
-<p><center>
 
 ## Scatter Plotting
 
-<hr width="50%"/>
 <br />
 
 ### Latitude Vs. Temperature
@@ -168,11 +166,8 @@ In WeatherPy a list of 500+ random cities was generated using NumPy's random fun
 <br />
 <br />
 
-<hr width="50%"/>
-
 ## Linear Regression Plotting
 
-<hr width="50%"/>
 <br />
 <u>
 
@@ -180,6 +175,7 @@ In WeatherPy a list of 500+ random cities was generated using NumPy's random fun
 </u>
 
 For the Northern Hemisphere, there is a high negative correlation coefficient that indicates that the further North one travels, the colder the max temperate is this time of the year. However, for the Southern Hemisphere, there is a low positive correlation coefficient that suggests there is no strong direct relationship between the distance traveled south and the max temperature during this time of the year.
+
 <br />
 
 ### Northern Hemisphere
@@ -189,11 +185,13 @@ For the Northern Hemisphere, there is a high negative correlation coefficient th
 ![tls](https://user-images.githubusercontent.com/82631980/216807143-8f4a99ae-7a0d-4ef8-ae05-a6e6f6537716.png)
 
 [Back To Top](#python-api-challenge)
+
 <br />
 <br />
 <u>
 
 ## Humidity Vs. Latitude
+
 </u>
 
 For the Northern and Southern Hemispheres, there is a mid to low positive correlation coefficient between the humidity and the latitude. Interesting enough both graphs are positive with the Southern Hemisphere having a y-intercept at 84% humidity and the Northern having a y-intercept at 58% humidity, with the y-intercept representing the equator. The increase in humidity from the equator to the distance traveled North in the Northern Hemisphere is greater than the increase in humidity from the distance traveled South to the equator.
@@ -205,11 +203,13 @@ For the Northern and Southern Hemispheres, there is a mid to low positive correl
 ![hls](https://user-images.githubusercontent.com/82631980/216807174-084ea7f4-4b64-45d0-8669-82a4866684f1.png)
 
 [Back To Top](#python-api-challenge)
+
 <br />
 <br />
 <u>
 
 ## Cloudiness Vs. Latitude
+
 </u>
 
 There is little to no relationship between the altitude and the cloudiness. The plotted points are sporadic and not uniform with the y-axis ranging from 0 to 100 with just an increase of 1, if any increase at all, on the x-axis.
@@ -221,11 +221,13 @@ There is little to no relationship between the altitude and the cloudiness. The 
 ![cls](https://user-images.githubusercontent.com/82631980/216807190-9b5598bf-87c3-4cfd-a246-e8282f585c46.png)
 
 [Back To Top](#python-api-challenge)
+
 <br />
 <br />
 <u>
 
 ## Wind Speed Vs. Latitude
+
 </u>
 
 There is little to no relationship between the altitude and the wind speeds. The wind speeds do not have a wide range and are not uniform.
@@ -237,20 +239,14 @@ There is little to no relationship between the altitude and the wind speeds. The
 ![wls](https://user-images.githubusercontent.com/82631980/216807200-28f225e4-bc46-4e50-8477-44696261698e.png)
 
 [Back To Top](#python-api-challenge)
-</center></p>
 
 <br />
 <br />
-
-<hr />
-<p><center>
 
 ## VacationPy
 
-</center></p>
-<hr />
-
 VacationPy takes the list of cities in [WeatherPy](#weatherpy) and maps them using hvplot with the dot size being the humidity percentage. This list of cities is then filtered down based on my own personal preferred weather conditions for a sweet vacation. We then utilize Geoapify's API to obtain the nearest hotel within 10,000 meters and save it to our dataframe. The list is then replotted on a map to inlcude the weather and hotel information when the mouse if hovered over the selection.
+
 <br />
 <br />
 
@@ -343,43 +339,33 @@ VacationPy takes the list of cities in [WeatherPy](#weatherpy) and maps them usi
 
 <br />
 
-<p><center>
-
-<hr width="50%"/>
-
 ## Geo Map Plotting
 
-<hr width="50%"/>
 <br />
 
-### All Cities
+### All Cities Without Hotel
 
-
+![all_cities](https://user-images.githubusercontent.com/82631980/216847272-a333df23-3002-49b4-b9c7-aadfaf0a7283.png)
 
 [Back To Top](#python-api-challenge)
+
 <br />
 <br />
 
 ### My Selected Cities With Hotel
 
-
+![my_cities](https://user-images.githubusercontent.com/82631980/216847290-20fa0ca8-54b8-414a-8553-2a33ec874b3d.png)
 
 [Back To Top](#python-api-challenge)
-<br />
-<br />
 
-</center></p>
 <br />
 <br />
 
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
 <br />
 <br />
 
 [Back To Top](#python-api-challenge)
-
-
-
-
