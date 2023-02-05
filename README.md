@@ -12,7 +12,7 @@ UCI Data Analytics Bootcamp | Module 6 Challenge
    * [Latitude vs. Wind Speed](#latitude-vs-wind-speed)
  * [Linear Regression Plotting](#linear-regression-plotting)
    * [Temperature vs. Latitude](#temperature-vs-latitude)
-      * [Northern Hemisphere](#temperature-vs-latitude-northern-hemisphere)
+     * [Northern Hemisphere](#temperature-vs-latitude-northern-hemisphere)
   
 ## Part I - WeatherPy
 
