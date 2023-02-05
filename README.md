@@ -17,6 +17,12 @@ UCI Data Analytics Bootcamp | Module 6 Challenge
   * [Humidity vs. Latitude](#humidity-vs-latitude)
     * [Northern Hemisphere](#humidity-vs-latitude)
     * [Southern Hemisphere](#humidity-vs-latitude)
+  * [Cloudiness vs. Latitude](#cloudiness-vs-latitude)
+    * [Northern Hemisphere](#cloudiness-vs-latitude)
+    * [Southern Hemisphere](#cloudiness-vs-latitude)
+  * [Wind Speed vs. Latitude](#wind-speed-vs-latitude)
+    * [Northern Hemisphere](#wind-speed-vs-latitude)
+    * [Southern Hemisphere](#wind-speed-vs-latitude)
   
 ## Part I - WeatherPy
 
@@ -131,23 +137,51 @@ In WeatherPy a list of 500+ random cities was generated using NumPy's random fun
 
 ## Linear Regression Plotting
 
-### Temperature vs. Latitude
+### Temperature Vs. Latitude
 #### Northern Hemisphere
+![tln](https://user-images.githubusercontent.com/82631980/216807134-0f901db1-b3a1-4764-af83-7dfc7f5de35c.png)
 
 [Back To Top](#python-api-challenge)
 
 #### Southern Hemisphere
+![tls](https://user-images.githubusercontent.com/82631980/216807143-8f4a99ae-7a0d-4ef8-ae05-a6e6f6537716.png)
 
 [Back To Top](#python-api-challenge)
 
-### Humidity vs. Latitude
+### Humidity Vs. Latitude
 #### Northern Hemisphere
+![hln](https://user-images.githubusercontent.com/82631980/216807169-43b5da15-057c-4e7e-be40-263d533e31dc.png)
 
 [Back To Top](#python-api-challenge)
 
 #### Southern Hemisphere
+![hls](https://user-images.githubusercontent.com/82631980/216807174-084ea7f4-4b64-45d0-8669-82a4866684f1.png)
 
 [Back To Top](#python-api-challenge)
+
+### Cloudiness Vs. Latitude
+#### Northern Hemisphere
+![cln](https://user-images.githubusercontent.com/82631980/216807184-59180be8-ab2e-4e4e-bfca-cf535170d901.png)
+
+[Back To Top](#python-api-challenge)
+
+#### Southern Hemisphere
+![cls](https://user-images.githubusercontent.com/82631980/216807190-9b5598bf-87c3-4cfd-a246-e8282f585c46.png)
+
+[Back To Top](#python-api-challenge)
+
+### Wind Speed Vs. Latitude
+#### Northern Hemisphere
+![wln](https://user-images.githubusercontent.com/82631980/216807196-54a1bce2-6f29-4099-a8c6-70f792339639.png)
+
+[Back To Top](#python-api-challenge)
+
+#### Southern Hemisphere
+![wls](https://user-images.githubusercontent.com/82631980/216807200-28f225e4-bc46-4e50-8477-44696261698e.png)
+
+[Back To Top](#python-api-challenge)
+
+<br></br>
 
 ## License
 
