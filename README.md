@@ -92,26 +92,32 @@ In WeatherPy a list of 500+ random cities was generated using NumPy's random fun
     </tr>
   </tbody>
 </table>
+[Back To Top](#table-of-contents)
 
 ## Scatter Plotting
 
 ### Latitude Vs. Temperature
 ![Fig1](https://user-images.githubusercontent.com/82631980/216805291-23adccfd-3f31-4cf0-87be-5ca5d38c2e28.png)
+[Back To Top](#table-of-contents)
 
 ### Latitude Vs. Humidity
 ![Fig2](https://user-images.githubusercontent.com/82631980/216805298-46c4738b-b1d5-4f54-9059-1ac46dcaf6fa.png)
+[Back To Top](#table-of-contents)
 
 ### Latitude Vs. Cloudiness
 ![Fig3](https://user-images.githubusercontent.com/82631980/216805300-816d9d40-c9fe-4102-80e1-c82c2a370f1f.png)
+[Back To Top](#table-of-contents)
 
 ### Latitude vs. Wind Speed
 ![Fig4](https://user-images.githubusercontent.com/82631980/216805302-ecd47856-b231-429b-ba47-0eadf3d91399.png)
+[Back To Top](#table-of-contents)
 
 <br></br>
 
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+[Back To Top](#table-of-contents)
 
 
 
