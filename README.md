@@ -138,6 +138,9 @@ In WeatherPy a list of 500+ random cities was generated using NumPy's random fun
 ## Linear Regression Plotting
 
 ### Temperature Vs. Latitude
+
+For the Northern Hemisphere, there is a high negative correlation coefficient that indicates that the further North one travels, the colder the max temperate is this time of the year. However, for the Southern Hemisphere, there is a low positive correlation coefficient that suggests there is no strong direct relationship between the distance traveled south and the max temperature during this time of the year.
+
 #### Northern Hemisphere
 ![tln](https://user-images.githubusercontent.com/82631980/216807134-0f901db1-b3a1-4764-af83-7dfc7f5de35c.png)
 
@@ -149,6 +152,9 @@ In WeatherPy a list of 500+ random cities was generated using NumPy's random fun
 [Back To Top](#python-api-challenge)
 
 ### Humidity Vs. Latitude
+
+For the Northern and Southern Hemispheres, there is a mid to low positive correlation coefficient between the humidity and the latitude. Interesting enough both graphs are positive with the Southern Hemisphere having a y-intercept at 84% humidity and the Northern having a y-intercept at 58% humidity, with the y-intercept representing the equator. The increase in humidity from the equator to the distance traveled North in the Northern Hemisphere is greater than the increase in humidity from the distance traveled South to the equator.
+
 #### Northern Hemisphere
 ![hln](https://user-images.githubusercontent.com/82631980/216807169-43b5da15-057c-4e7e-be40-263d533e31dc.png)
 
@@ -160,6 +166,9 @@ In WeatherPy a list of 500+ random cities was generated using NumPy's random fun
 [Back To Top](#python-api-challenge)
 
 ### Cloudiness Vs. Latitude
+
+There is little to no relationship between the altitude and the cloudiness. The plotted points are sporadic and not uniform with the y-axis ranging from 0 to 100 with just an increase of 1, if any increase at all, on the x-axis.
+
 #### Northern Hemisphere
 ![cln](https://user-images.githubusercontent.com/82631980/216807184-59180be8-ab2e-4e4e-bfca-cf535170d901.png)
 
@@ -171,6 +180,9 @@ In WeatherPy a list of 500+ random cities was generated using NumPy's random fun
 [Back To Top](#python-api-challenge)
 
 ### Wind Speed Vs. Latitude
+
+There is little to no relationship between the altitude and the wind speeds. The wind speeds do not have a wide range and are not uniform.
+
 #### Northern Hemisphere
 ![wln](https://user-images.githubusercontent.com/82631980/216807196-54a1bce2-6f29-4099-a8c6-70f792339639.png)
 
