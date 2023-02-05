@@ -3,7 +3,7 @@
 UCI Data Analytics Bootcamp | Module 6 Challenge
 
 ## Table of Contents
-#### Part I - WeatherPy
+#### <u>Part I - WeatherPy</u>
 
 * [Scatter Plotting](#scatter-plotting)
   * [Latitude vs. Temperature](#latitude-vs-temperature)
@@ -12,17 +12,19 @@ UCI Data Analytics Bootcamp | Module 6 Challenge
   * [Latitude vs. Wind Speed](#latitude-vs-wind-speed)
 * [Linear Regression Plotting](#linear-regression-plotting)
   * [Temperature vs. Latitude](#temperature-vs-latitude)
-    * [Northern Hemisphere](#temperature-vs-latitude)
-    * [Southern Hemisphere](#temperature-vs-latitude)
+    * Northern Hemisphere
+    * Southern Hemisphere
   * [Humidity vs. Latitude](#humidity-vs-latitude)
-    * [Northern Hemisphere](#humidity-vs-latitude)
-    * [Southern Hemisphere](#humidity-vs-latitude)
+    * Northern Hemisphere
+    * Southern Hemisphere
   * [Cloudiness vs. Latitude](#cloudiness-vs-latitude)
-    * [Northern Hemisphere](#cloudiness-vs-latitude)
-    * [Southern Hemisphere](#cloudiness-vs-latitude)
+    * Northern Hemisphere
+    * Southern Hemisphere
   * [Wind Speed vs. Latitude](#wind-speed-vs-latitude)
-    * [Northern Hemisphere](#wind-speed-vs-latitude)
-    * [Southern Hemisphere](#wind-speed-vs-latitude)
+     * Northern Hemisphere
+     * Southern Hemisphere
+
+#### [Part II - VacationPy](#part-ii-vacationpy)
   
 ## Part I - WeatherPy
 
@@ -192,6 +194,12 @@ There is little to no relationship between the altitude and the wind speeds. The
 ![wls](https://user-images.githubusercontent.com/82631980/216807200-28f225e4-bc46-4e50-8477-44696261698e.png)
 
 [Back To Top](#python-api-challenge)
+
+<br></br>
+
+## Part II - VacationPy
+
+Part 2 description goes here.
 
 <br></br>
 
