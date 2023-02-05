@@ -3,7 +3,7 @@
 UCI Data Analytics Bootcamp | Module 6 Challenge
 
 ## Table of Contents
-#### [Part I - WeatherPy](#part-i---weatherpy)
+#### [Part I - WeatherPy](#weatherpy)
 
 * [Scatter Plotting](#scatter-plotting)
   * [Latitude vs. Temperature](#latitude-vs-temperature)
@@ -24,9 +24,9 @@ UCI Data Analytics Bootcamp | Module 6 Challenge
      * Northern Hemisphere
      * Southern Hemisphere
 
-#### [Part II - VacationPy](#part-ii---vacationpy)
+#### [Part II - VacationPy](#vacationpy)
   
-## Part I - WeatherPy
+## WeatherPy
 
 In WeatherPy a list of 500+ random cities was generated using NumPy's random function to create random sets of longitue and latitude coordinates. These coordinates were then fed into the citypy module to obtain the name of the nearest city. The cities were saved in a csv to be accessed later. Using the complete dataset, various scatter plots were generated to visualize different datapoints against the city's latitude.
 
@@ -197,7 +197,7 @@ There is little to no relationship between the altitude and the wind speeds. The
 
 <br></br>
 
-## Part II - VacationPy
+## VacationPy
 
 Part 2 description goes here.
 
