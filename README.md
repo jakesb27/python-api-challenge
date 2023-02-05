@@ -5,14 +5,14 @@ UCI Data Analytics Bootcamp | Module 6 Challenge
 ## Table of Contents
 #### Part I - WeatherPy
 
- * [Scatter Plotting](#scatter-plotting)
-   * [Latitude vs. Temperature](#latitude-vs-temperature)
-   * [Latitude Vs. Humidity](#latitude-vs-humidity)
-   * [Latitude Vs. Cloudiness](#latitude-vs-cloudiness)
-   * [Latitude vs. Wind Speed](#latitude-vs-wind-speed)
- * [Linear Regression Plotting](#linear-regression-plotting)
-   * [Temperature vs. Latitude](#temperature-vs-latitude)
-     * [Northern Hemisphere](#temperature-vs-latitude-northern-hemisphere)
+* [Scatter Plotting](#scatter-plotting)
+  * [Latitude vs. Temperature](#latitude-vs-temperature)
+  * [Latitude Vs. Humidity](#latitude-vs-humidity)
+  * [Latitude Vs. Cloudiness](#latitude-vs-cloudiness)
+  * [Latitude vs. Wind Speed](#latitude-vs-wind-speed)
+* [Linear Regression Plotting](#linear-regression-plotting)
+  * [Temperature vs. Latitude](#temperature-vs-latitude)
+    * [Northern Hemisphere](#temperature-vs-latitude-northern-hemisphere)
   
 ## Part I - WeatherPy
 
