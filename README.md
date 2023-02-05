@@ -2,6 +2,12 @@
 
 UCI Data Analytics Bootcamp | Module 6 Challenge
 
+## Summary
+
+This is a two part challenge consisting of WeatherPy (part I) and VacationPy (part II). The scripts use two API's to obtain cities and their current weather. An analysis is done on the data to help pinpoint the best spots to vacation based on personal weather preferces.
+
+<br></br>
+
 ## Table of Contents
 #### [Part I - WeatherPy](#weatherpy)
 
@@ -25,7 +31,9 @@ UCI Data Analytics Bootcamp | Module 6 Challenge
      * Southern Hemisphere
 
 #### [Part II - VacationPy](#vacationpy)
-  
+
+<br></br>
+
 ## WeatherPy
 
 In WeatherPy a list of 500+ random cities was generated using NumPy's random function to create random sets of longitue and latitude coordinates. These coordinates were then fed into the citypy module to obtain the name of the nearest city. The cities were saved in a csv to be accessed later. Using the complete dataset, various scatter plots were generated to visualize different datapoints against the city's latitude.
