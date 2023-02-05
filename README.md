@@ -4,8 +4,9 @@ UCI Data Analytics Bootcamp | Module 6 Challenge
 
 ## Table of Contents
 * Part I - WeatherPy
-  * [Scatter Plotting](##Scatter-Plotting)
-    - [Latitude vs. Temperature](###Latitude-Vs.-Temperature)
+  * [Scatter Plotting](##scatter-plotting)
+    - [Latitude vs. Temperature](###latitude-Vs.-temperature)
+    - 
   
 ## Part I - WeatherPy
 
