@@ -5,3 +5,85 @@ UCI Data Analytics Bootcamp | Module 6 Challenge
 <br></br>
 
 ## Summary
+### Part I - WeatherPy
+
+In WeatherPy a list of 500+ random cities was generated using NumPy's random function to create random sets of longitue and latitude coordinates. These coordinates were then fed into the citypy module to obtain the name of the nearest city. The cities were saved in a csv to be accessed later. Below is a snippet of that dataset.
+
+<table class="dataframe" border="1">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>City</th>
+      <th>Lat</th>
+      <th>Lng</th>
+      <th>Max Temp</th>
+      <th>Humidity</th>
+      <th>Cloudiness</th>
+      <th>Wind Speed</th>
+      <th>Country</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>rikitea</td>
+      <td>-23.1203</td>
+      <td>-134.9692</td>
+      <td>78.48</td>
+      <td>76</td>
+      <td>8</td>
+      <td>12.71</td>
+      <td>PF</td>
+      <td>1675563787</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>hobart</td>
+      <td>-42.8794</td>
+      <td>147.3294</td>
+      <td>76.05</td>
+      <td>45</td>
+      <td>20</td>
+      <td>6.91</td>
+      <td>AU</td>
+      <td>1675563619</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>ushuaia</td>
+      <td>-54.8000</td>
+      <td>-68.3000</td>
+      <td>51.46</td>
+      <td>76</td>
+      <td>40</td>
+      <td>6.91</td>
+      <td>AR</td>
+      <td>1675563750</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>arraial do cabo</td>
+      <td>-22.9661</td>
+      <td>-42.0278</td>
+      <td>76.33</td>
+      <td>91</td>
+      <td>17</td>
+      <td>7.47</td>
+      <td>BR</td>
+      <td>1675563645</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>nerang</td>
+      <td>-27.9833</td>
+      <td>153.3333</td>
+      <td>91.38</td>
+      <td>66</td>
+      <td>65</td>
+      <td>7.00</td>
+      <td>AU</td>
+      <td>1675563789</td>
+    </tr>
+  </tbody>
+</table>
