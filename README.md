@@ -87,3 +87,21 @@ In WeatherPy a list of 500+ random cities was generated using NumPy's random fun
     </tr>
   </tbody>
 </table>
+
+<br></br>
+
+Using the above dataset, the below scatter plots were generated to visualize different datapoints against the city's latitude.
+![Fig1](https://user-images.githubusercontent.com/82631980/216805291-23adccfd-3f31-4cf0-87be-5ca5d38c2e28.png)
+![Fig2](https://user-images.githubusercontent.com/82631980/216805298-46c4738b-b1d5-4f54-9059-1ac46dcaf6fa.png)
+![Fig3](https://user-images.githubusercontent.com/82631980/216805300-816d9d40-c9fe-4102-80e1-c82c2a370f1f.png)
+![Fig4](https://user-images.githubusercontent.com/82631980/216805302-ecd47856-b231-429b-ba47-0eadf3d91399.png)
+
+<br></br>
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+
+
