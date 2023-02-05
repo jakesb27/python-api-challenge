@@ -34,9 +34,9 @@ This is a two part challenge consisting of [WeatherPy](#weatherpy) and [Vacation
 
 #### [Part II - VacationPy](#vacationpy)
 
- * [Geo Map Plotting](#geo-mapplotting)
+ * [Geo Map Plotting](#geo-map-plotting)
    * [All Cities Without Hotel](#all-cities-without-hotel)
-   * [My Cities With Hotel](#my-cities-with-hotel)
+   * [My Selected Cities With Hotel](#my-selected-cities-with-hotel)
 
 <br />
 
