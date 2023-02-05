@@ -24,7 +24,7 @@ UCI Data Analytics Bootcamp | Module 6 Challenge
      * Northern Hemisphere
      * Southern Hemisphere
 
-#### [Part II - VacationPy](#part-ii-vacationpy)
+#### [Part II - VacationPy](#part-ii---vacationpy)
   
 ## Part I - WeatherPy
 
