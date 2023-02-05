@@ -12,7 +12,11 @@ UCI Data Analytics Bootcamp | Module 6 Challenge
   * [Latitude vs. Wind Speed](#latitude-vs-wind-speed)
 * [Linear Regression Plotting](#linear-regression-plotting)
   * [Temperature vs. Latitude](#temperature-vs-latitude)
-    * [Northern Hemisphere](#temperature-vs-latitude-northern-hemisphere)
+    * [Northern Hemisphere](#temperature-vs-latitude)
+    * [Southern Hemisphere](#temperature-vs-latitude)
+  * [Humidity vs. Latitude](#humidity-vs-latitude)
+    * [Northern Hemisphere](#humidity-vs-latitude)
+    * [Southern Hemisphere](#humidity-vs-latitude)
   
 ## Part I - WeatherPy
 
@@ -128,7 +132,7 @@ In WeatherPy a list of 500+ random cities was generated using NumPy's random fun
 ## Linear Regression Plotting
 
 ### Temperature vs. Latitude
-#### Northern Hemisphere | Temperature vs. Latitude
+#### Northern Hemisphere
 
 [Back To Top](#python-api-challenge)
 
