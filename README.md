@@ -2,12 +2,9 @@
 
 UCI Data Analytics Bootcamp | Module 6 Challenge
 
-<br></br>
+## Part I - WeatherPy
 
-## Summary
-### Part I - WeatherPy
-
-In WeatherPy a list of 500+ random cities was generated using NumPy's random function to create random sets of longitue and latitude coordinates. These coordinates were then fed into the citypy module to obtain the name of the nearest city. The cities were saved in a csv to be accessed later. Below is a snippet of that dataset.
+In WeatherPy a list of 500+ random cities was generated using NumPy's random function to create random sets of longitue and latitude coordinates. These coordinates were then fed into the citypy module to obtain the name of the nearest city. The cities were saved in a csv to be accessed later. Using the complete dataset, various scatter plots were generated to visualize different datapoints against the city's latitude.
 
 <table class="dataframe" border="1">
   <thead>
@@ -88,12 +85,18 @@ In WeatherPy a list of 500+ random cities was generated using NumPy's random fun
   </tbody>
 </table>
 
-<br></br>
+## Scatter Plotting
 
-Using the above dataset, the below scatter plots were generated to visualize different datapoints against the city's latitude.
+### Latitude Vs. Temperature
 ![Fig1](https://user-images.githubusercontent.com/82631980/216805291-23adccfd-3f31-4cf0-87be-5ca5d38c2e28.png)
+
+### Latitude Vs. Humidity
 ![Fig2](https://user-images.githubusercontent.com/82631980/216805298-46c4738b-b1d5-4f54-9059-1ac46dcaf6fa.png)
+
+### Latitude Vs. Cloudiness
 ![Fig3](https://user-images.githubusercontent.com/82631980/216805300-816d9d40-c9fe-4102-80e1-c82c2a370f1f.png)
+
+### Latitude vs. Wind Speed
 ![Fig4](https://user-images.githubusercontent.com/82631980/216805302-ecd47856-b231-429b-ba47-0eadf3d91399.png)
 
 <br></br>
