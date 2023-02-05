@@ -128,7 +128,7 @@ In WeatherPy a list of 500+ random cities was generated using NumPy's random fun
 ## Linear Regression Plotting
 
 ### Temperature vs. Latitude
-#### Temperature vs. Latitude - Northern Hemisphere
+#### Northern Hemisphere | Temperature vs. Latitude
 
 [Back To Top](#python-api-challenge)
 
